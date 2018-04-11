@@ -1,0 +1,11 @@
+如果您已经安装过 扫雷2.x 或3.x 版本，请将此自解压文件移至旧版扫雷的父目录下。
+例：如旧版扫雷的exe文件位于 D:\Minesweeper\Minesweeper.exe ，则将此自解压文件移至 D:\
+
+注：从1.x版本升级至该版本需手动删除所有1.x版的文件
+
+==============
+
+If you have already installed <Minesweeper 2.x> or <Minesweeper 3.x>, please move this self-extracting file into the parent directory of old Minesweeper.
+ex. Move this file to D:\ if your old Minesweeper.exe is under D:\Minesweeper\
+
+Note: Please manually remove all old files before installation if you are updating from 1.x version.

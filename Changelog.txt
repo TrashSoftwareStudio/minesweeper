@@ -1,0 +1,229 @@
+﻿===== v3.3 Beta2 | 2018/04/05 =====
+
+*修复了进阶模式重复通关后"下一级别"按键重复出现的问题
+*修复了一个类别错误
+*调整了问号图标的尺寸
+
+===== v3.3 Beta1 | 2018/03/03 =====
+
+*加入了继续上次游戏的功能
+*加入了问号备注功能
+
+===== v3.2 | 2018/01/24 =====
+
+*加入了对鼠标滚轮操作的支持
+*优化了自动完成时的性能
+*优化了文件结构
+
+*Added support for mouse wheel
+*Optimized performance when auto-filling
+*Optimized package structure
+
+===== v3.2 Beta2 | 2018/01/11 =====
+
+*修改了显示算法，优化了内存占用
+*修改了最大游戏尺寸
+*取消了创建超大游戏时的警告
+*修复了点击游戏区域以外仍会显示的bug
+*加入了自定义游戏的成绩记录系统
+*略微调整了界面布局
+*略微调整了语言文件和配置文件的格式
+
+*Modified showing algorithm, optimized memory usage
+*Adjusted maximum game size
+*Removed the warning while creating ultra-large game
+*Fixed a bug that the game responses while clicking outside the game frame
+*Added the custom game recording system
+*Slightly adjusted UI layout
+*Slightly adjusted the format of language file and preference file
+
+===== v3.2 Beta1 | 2018/01/09 =====
+
+*重写了界面显示原理
+*渲染速度随游戏大小提高40-2000倍
+*加入了创建超大游戏时的警告
+
+*Rewrote GUI showing algorithm
+*Game rendering is now about 40x to 2000x faster depending on game size
+*Added a warning when creating ultra-large game
+
+===== v3.1 Beta2 | 2017/12/27 =====
+
+*调整了最大游戏尺寸
+*调整了显示尺寸
+*补全了一些文档
+
+*Adjusted the maximum game size
+*Adjusted the size of the scrolling region
+*Completed more docstrings
+
+===== v3.1 Beta1 | 2017.12.26 =====
+
+*加入了游戏界面的滚动条
+*调整了最大游戏尺寸
+*暂时移除了繁体中文
+*加入了分辨率选择
+*修复了设置内下拉框可手动编辑的bug
+*加入了工作室信息
+
+*Added scrollbar when the game scale exceeds the screen
+*Adjusted the maximum size of game
+*Temporarily removed Traditional Chinese
+*Enabled the monitor-resolution selection
+*Fixed a bug that the combo-boxes are editable in the settings panel
+*Added work studio information
+
+===== v3.0 | 2017.11.25 =====
+
+*略微调整了6和8的颜色
+*优化了部分代码
+*更改了存档文件的后缀名
+
+*Slightly changed the color of 6 and 8
+*Optimized some codes
+*Changed the suffix of saving files
+
+===== v3.0 Beta7 | 2017.11.24 =====
+
+*修改了一些翻译
+*调整了错误信息的显示顺序
+*调整了源代码结构
+*修复了进行通关模式时可以打开新游戏的bug
+*加入了创建自定义游戏窗口的错误处理程序
+
+*Changed some translations
+*Adjusted the display sequence of the error information
+*Adjusted the structure of source codes
+*Fixed a bug that the user can start a new game while running a stage game
+*Added a crash handler for the new custom game window
+
+===== v3.0 beta6 | 2017.11.24 =====
+
+*删除了进阶模式开始游戏的按键
+*略微调整了主界面布局
+
+*Deleted the start button of stage game
+*Slightly adjusted the layout of the main UI
+
+===== v3.0 beta5 | =====
+
+*加入了时间单位
+*调整了进阶模式的关卡数量和难度
+*修复了进阶模式列表的bug
+
+*Added time unit
+*Adjusted the total stages of stage mode and their difficulties
+*Fixed a bug in the stage's listbox
+
+===== v3.0 beta4 | 2017.11.14 =====
+
+*调整了进阶模式的难度
+
+*Adjusted the difficulty of stage mode
+
+===== v3.0 beta3 | 2017.11.14 =====
+
+*修改了游戏窗口的标题
+*加入了进阶游戏胜利之后“下一级别”的选项
+
+*Changed the title of the game's window
+*Added an option for "Next level" after wining a stage game
+
+===== v3.0 beta2 | 2017.11.13 =====
+
+*修复了关闭游戏胜利的弹窗后最后一次点击的格子不能恢复的bug
+
+*Fixed a bug that caused the last-clicked button cannot be restored after closing the congratulations window
+
+===== v3.0 beta | 2017.11.13 =====
+
+*加入了进阶模式
+*重新设计了图形界面
+*增加了通关时的弹窗
+
+*Added stage mode
+*Re-designed GUI
+*Added an message box after wins
+
+===== v2.2.2 | 2017.11.12 =====
+
+*略微调整了中级和高级游戏的难度
+
+*Slightly adjusted the difficulty of medium mode and hard mode
+
+===== v2.2.1 | 2017.11.11 =====
+
+*修复了重新开始游戏时计时不暂停的bug
+
+*Fixed a bug that causes the timer continues going after restart of a game
+
+===== v2.2 | 2017.11.10 =====
+
+*修改了窗口图标
+*调整了游戏界面宽度
+*加入了自定义游戏的最小长宽限制
+*修改了自定义游戏的最大长宽限制
+*修复了自定义游戏输入雷数超限时显示雷数与真实雷数不匹配的bug
+*修改了数据结构
+*加入了超小号、中号、大号图标
+*增加了6号和24号字体
+
+*Modified window icon
+*Adjusted game frame width
+*Added a minimum size limit for custom game
+*Changed the maximum size limit for custom game
+*Fixed a bug that causes the 'Remaining' mines shown on the screen does not match the real mines when user's input
+exceeds the limit in custom game
+*Changed data structure
+*Added ultra-small, medium, and large version of photos
+*Added 6-size and 24-size font
+
+===== v2.1.3 | 2017.11.10 =====
+
+*修复了自动填充之后雷数不为0的bug
+*修复了第一次点击直接胜利之后图标不变的bug
+*优化了运行效率
+*加入了自定义游戏的最大长宽限制
+*调整了主界面宽度
+*加入了点击数字时的高亮提示
+
+*Fixed bug that causes the freezing 'Mines' indicator after auto-fill
+*Fixed bug that the status indicator does not change while wining by first click
+*Optimized runtime
+*Added a maximum size limit for custom game
+*Adjusted UI width
+*Added an highlight indicator while clicking on a number block
+
+===== v2.1.2 | 2017.11.09 =====
+
+*修复了取消插旗之后格子变大的bug
+
+*Fixed a bug that causes the block becoming extremely big after remove the flag
+
+===== v2.1.1 | 2017.11.09 =====
+
+*加入了启动时的文件自检
+*删除部分了冗余代码
+
+*Added self-check while starting
+*Removed some redundant codes
+
+===== v2.1 | 2017.11.09 =====
+
+*加入调节字体大小的功能
+*加入针对文件丢失的异常处理程序
+*加入更新后自动保留旧设置和记录的功能
+
+*Added settings to adjust fonts size
+*Added a crash handler for file missing error
+*Added function to keep old preferences and records after updates
+
+===== v2.0 | 2017.11.09 =====
+
+*重建游戏架构
+*加入旗子和地雷的图像
+*使用base64加密算法替代了原有的zzz算法
+
+*Reconstructed game frame
+*Added images for flags and mines
+*Used base64 encoding algorithm instead of zzz
