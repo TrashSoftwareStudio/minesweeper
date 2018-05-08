@@ -58,7 +58,7 @@ class MineSweeper:
     """ A Minesweeper game.
 
     ===== Attributes =====
-    :param list[list[BlockInfo]] self.records:
+    :param list{list{BlockInfo}} self.records:
     """
 
     def __init__(self, master, rows, columns, mines):
@@ -330,7 +330,9 @@ class MineSweeper:
         for i in range(max([0, r - 1]), min([r + 2, self.matrix.rows])):
             for j in range(max([0, c - 1]), min([c + 2, self.matrix.columns])):
                 if i != r or j != c:
-                    if self.matrix.matrix[i][j] != self.flags.matrix[i][j]:
+                    if self.records[i][j].is_ques:
+                        return
+                    elif self.matrix.matrix[i][j] != self.flags.matrix[i][j]:
                         self.lost()
                         return
                     lst.append((i, j))

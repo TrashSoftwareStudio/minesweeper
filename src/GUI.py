@@ -4,7 +4,6 @@
 import tkinter.messagebox
 import tkinter.ttk
 from src.ConfigReader import *
-from src.Helpers import *
 from src.Game import *
 from Minesweeper import VERSION
 
